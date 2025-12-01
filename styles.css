@@ -1,0 +1,71 @@
+/* GLOBAL STYLES */
+body {
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+    background-color: #ffe6f2; /* light blush pink */
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* LAYOUT */
+header, main, footer {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+/* HEADINGS */
+h1 {
+    text-align: center;
+    color: #cc2e72; /* strong pink */
+    margin-bottom: 10px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #cc2e72;
+}
+
+th, td {
+    border: 1px solid #f3b6cf; /* light pink border */
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #fcd6e8; /* light accessible pink */
+    color: #7a1d45;
+    font-weight: bold;
+}
+
+/* LINKS */
+a {
+    color: #cc2e72;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #7a1d45;
+}
+
